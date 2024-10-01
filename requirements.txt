@@ -20,6 +20,31 @@ lightgbm==3.3.5
 joblib==1.2.0
 tqdm==4.65.0
 
+# Ferramentas de desenvolvimento e distribuição
+setuptools==65.5.0
+wheel==0.38.4
+twine==4.0.2
+build==0.10.0
+
+# Ferramentas de teste
+pytest==7.3.1
+pytest-cov==4.0.0
+
+# Ferramentas de linting e formatação
+flake8==6.0.0
+black==23.3.0
+isort==5.12.0
+
+# Documentação
+Sphinx==6.2.1
+sphinx-rtd-theme==1.2.0
+
+# Gerenciamento de ambiente
+pip==23.1.2
+virtualenv==20.23.0
+
 # Opcional: para notebooks Jupyter (se usado durante o desenvolvimento)
 jupyter==1.0.0
 ipython==8.13.2
+
+# Nota: distutils é parte da biblioteca padrão do Python e não precisa ser instalado separadamente
