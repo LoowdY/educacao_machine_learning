@@ -19,15 +19,16 @@ from xgboost import XGBRegressor
 from lightgbm import LGBMRegressor
 from mpl_toolkits.mplot3d import Axes3D
 
+
 # Configuração da página
 st.set_page_config(
-    page_title="Análise de Regressão Avançada",
+    page_title="Educação Machine Learning",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
     menu_items={
         'Get Help': 'https://www.streamlit.io/community',
-        'Report a bug': "https://github.com/seu_usuario/seu_repositorio/issues",
+        'Report a bug': "https://github.com/LoowdY/educacao_machine_learning",
         'About': "# Aplicativo de Análise de Regressão\n"
                  "Este aplicativo foi desenvolvido para explorar modelos de regressão "
                  "usando conjuntos de dados éticos e técnicas avançadas de análise."
@@ -655,15 +656,15 @@ decorrentes do uso deste aplicativo.
 st.markdown("---")
 st.subheader("🙏 Créditos e Agradecimentos")
 st.markdown("""
-- Desenvolvido por: [Seu Nome]
+- Desenvolvido por: João Renan Lopes E Carlos Egger
 - Bibliotecas utilizadas: Streamlit, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn, Plotly
-- Agradecimentos especiais à comunidade de código aberto e aos contribuidores das bibliotecas utilizadas.
+- Agradecimentos especiais à comunidade de código aberto e aos contribuidores das bibliotecas utilizadas bem como ao professor Pedro Girotto.
 """)
 
 # Footer
 st.markdown("---")
 st.markdown("""
 <div style="text-align: center;">
-    <p>Desenvolvido com ❤️ usando Streamlit | © 2023 Todos os direitos reservados</p>
+    <p>Desenvolvido com ❤️ usando Streamlit | Desenvolvedores: João Renan Lopes E Carlos Egger | Professor: pedro Girotto ;)
 </div>
 """, unsafe_allow_html=True)
