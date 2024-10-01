@@ -1,9 +1,25 @@
+# Interface do usuário
 streamlit==1.22.0
+
+# Análise de dados e manipulação
 numpy==1.23.5
 pandas==1.5.3
-seaborn==0.12.2
+scipy==1.10.1
+
+# Visualização
 matplotlib==3.7.1
-scikit-learn==1.2.2
+seaborn==0.12.2
 plotly==5.14.1
+
+# Aprendizado de máquina
+scikit-learn==1.2.2
 xgboost==1.7.5
 lightgbm==3.3.5
+
+# Outras utilidades
+joblib==1.2.0
+tqdm==4.65.0
+
+# Opcional: para notebooks Jupyter (se usado durante o desenvolvimento)
+jupyter==1.0.0
+ipython==8.13.2
